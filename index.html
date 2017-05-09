@@ -3,6 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
@@ -10,43 +11,56 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="nothing">
         <h1>Movie Ticket Prices</h1>
       </div>
-      <h2>Select from the options below to see the price:</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-8">
-        <form id=ticketForm>
-          <select class="form-control" id="movie">
-            <option></option>
-            <option value="1">Movie 1</option>
-            <option value="2">Movie 2</option>
-            <option value ="3">Movie 3</option>
-            <option value ="4">Movie 4</option>
-          </select>
-
-          <select class="form-control" id="time">
-            <option></option>
-            <option>Before 6pm</option>
-            <option>After 6pm</option>
-          </select>
-
-          <select class="form-control" id="age">
-            <option></option>
-            <option>65 years old + </option>
-            <option>Under 65 years old</option>
-          </select>
-          <button type="submit" class="btn">Get ticket price!</button>
-
-        </form>
-      </div>
-      <div class="col-md-4">
-        <div class="output">
-          <ul id="price">
-
-          </ul>
+        <div class="row">
+          <div class="col-md-2.5">
+            <div class="picz">
+              <img src="img/dont-tell.jpg" alt="Dont tell mom babysitter is dead" />
+              <img src="img/pred.jpg" alt="Predator" />
+              <img src="img/weekend.jpg" alt="Weekend at bernie's" />
+              <img src="img/young.jpg" alt="Youngblood" />
+              <img src="img/buck.jpg" alt="Uncle buck" />
+            </div>
+          </div>
         </div>
+        <h2>Select from the options below to see the price:</h2>
+        <div class="row">
+          <div class="col-md-8">
+            <form id=ticketForm>
+              <select class="form-control" id="movie">
+                <option></option>
+                <option value="250">Don't Tell Mom The Babysitter Is Dead</option>
+                <option value="500">Predator</option>
+                <option value ="500">Weekend At Bernie's</option>
+                <option value ="250">Youngblood</option>
+                <option value ="250">Uncle Buck</option>
+              </select>
+
+              <select class="form-control" id="time">
+                <option></option>
+                <option value="250">Before 6pm</option>
+                <option value="500">After 6pm</option>
+              </select>
+
+              <select class="form-control" id="age">
+                <option></option>
+                <option value="250">65 years old + </option>
+                <option value="500">Under 65 years old</option>
+              </select>
+              <button type="submit" class="btn">Get ticket price!</button>
+
+            </form>
+          </div>
+          <div class="col-md-4">
+            <div class="output">
+              <ul id="price">
+                Your Total is $
+              </ul>
+              <img id="keith" src="https://media.giphy.com/media/ivCe7QYFpZcWY/giphy.gif" alt="keith hairing gif" />
+            </div>
+         </div>
       </div>
     </div>
   </body>

@@ -1,7 +1,50 @@
+body {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/0c/a2/87/0ca2879fe367cad47b7158ae3440e2c7.jpg);
+  background-repeat: repeat;
+  /*background-size: cover;
+  /*background-color: #800000;*/
+  /*background-position: center;*/
+  font-family: 'Share Tech Mono', monospace;
+  text-shadow: 2px 2px #000;
+}
+
+
+.container {
+  margin-top: 90px;
+  color: #1affa3;
+  border-radius: 5px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 4px 4px #ff0000;
+}
+
+img {
+  max-width: 200px;
+  max-height: 350px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.picz {
+  text-align: center;
+}
+
 #ticketForm {
   padding: 20px;
 }
 
 .btn {
   margin-top: 20px;
+}
+
+#price {
+  font-size: 25px;
+}
+
+#keith {
+  text-align: center;
 }

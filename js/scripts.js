@@ -6,7 +6,8 @@ function priceOutput(movie, time, age) {
 }
 
 priceOutput.prototype.fullPrice = function() {
-  return this.movie + ", " + this.time + ", " + this.age;
+  // return this.movie + ", " + this.time + ", " + this.age;
+  return parseInt(this.movie) + parseInt(this.time) + parseInt(this.age);
 }
 
 
@@ -25,7 +26,7 @@ $(document).ready(function() {
 
   $("ul#price").append(price.fullPrice());
 
-  });
 
+  });
 
 });
