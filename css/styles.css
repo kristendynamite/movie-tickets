@@ -46,5 +46,9 @@ img {
 }
 
 #keith {
-  text-align: center;
+  margin-left: 75px;
+}
+
+.output {
+  display: none;
 }
